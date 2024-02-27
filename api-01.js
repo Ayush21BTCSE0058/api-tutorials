@@ -7,10 +7,10 @@ app.use(bodyParser.json());
 const port = process.env.PORT || 3000;
 
 app.get('/',(req , res)=>{
-    console.log("Server has started!");
+    console.log("page is being loaded!");
 });
 
 
 app.listen(()=>{
-    console.log("Server is starting!");
+    console.log("Server is started!");
 });
